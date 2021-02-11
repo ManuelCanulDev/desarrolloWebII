@@ -1,0 +1,60 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #808280;
+}
+
+#menu{
+    height: 75px;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+}
+
+#centro{
+    width: 100%;
+    background-color: violet;
+    height: calc(100vh - 225px);
+    position: relative;
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #808280;
+    position: relative;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    background-image: url('../asset/logo.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    top: 22.5px;
+    left: 22.5px;
+    position: relative;
+}
+
+#submenu{
+    position: absolute;
+    right: 22.5px;
+    top: 27px;
+}
+
+.linkmenu{
+    color: #272F57;
+    font-family: 'gilroylight';
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 720px){
+    #centro{
+        height: 60vw;
+    }
+
+    #footer{
+        height: auto;
+    }
+}
