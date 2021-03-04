@@ -2,6 +2,6 @@
     <div id="logo"></div>
     <div id="submenu">
         <a href="<?= url(''); ?>" class="linkmenu">Inicio</a><span class="linkMenuNone">|</span><a href="<?= url('makan'); ?>"
-            class="linkmenu">Kannan</a>
+            class="linkmenu">Makan</a>
     </div>
 </div>
