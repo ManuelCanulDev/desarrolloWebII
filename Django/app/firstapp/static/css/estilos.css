@@ -172,19 +172,8 @@ body {
     width: 150px;
 }
 
-.btnLote1 {
+.btnLote {
     height: 35px;
-    background-image: url('../asset/btnPremium.png');
-}
-
-.btnLote2 {
-    height: 35px;
-    background-image: url('../asset/logo.png');
-}
-
-.btnLote3 {
-    height: 35px;
-    background-image: url('../asset/logo.png');
 }
 
 .leyenda_dispo {
