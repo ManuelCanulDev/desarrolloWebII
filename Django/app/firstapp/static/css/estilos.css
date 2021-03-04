@@ -1,0 +1,227 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #808280;
+}
+
+#menu {
+    height: 75px;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+}
+
+#centro {
+    width: 100%;
+    background-color: blue;
+    height: calc(100vh - 265px);
+    position: relative;
+    background-image: url('../asset/fondo.jpeg');
+    background-size: auto 100%;
+    background-position: 50% 50%;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #808280;
+    position: relative;
+    text-align: center;
+}
+
+#bottomCenter {
+    padding-top: 40px;
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    padding-bottom: 40px;
+}
+
+.bottomSpace {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 33%;
+    text-align: left;
+    color: #fff;
+    font-family: 'gilroylight';
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('../asset/logo.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    top: 22.5px;
+    left: 22.5px;
+    position: relative;
+}
+
+#submenu {
+    position: absolute;
+    right: 22.5px;
+    top: 30px;
+}
+
+.linkmenu {
+    color: #272F57;
+    font-family: 'gilroylight';
+    text-decoration: none;
+    font-size: 18px;
+    border: 0px solid transparent;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
+    transition: all .75s ease;
+}
+
+.linkmenu:hover {
+    border-bottom: 4px solid #773F2F;
+}
+
+.linkMenuNone {
+    color: #272F57;
+    font-family: 'gilroylight';
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.centerButton {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 35vh;
+    height: auto;
+}
+
+.btnBrown {
+    color: #fff;
+    font-family: 'gilroyextrabold';
+    text-decoration: none;
+    background-color: #773F2F;
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+}
+
+@media screen and (max-width: 720px) {
+    #centro {
+        height: 60vw;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+    .centerButton {
+        top: auto;
+        -ms-transform: none;
+        padding-top: 0;
+        bottom: 40px;
+    }
+
+    .btnBrown {
+        font-size: 16px;
+        padding: 8px 16px 8px 16px;
+    }
+}
+
+/* MAKAN */
+.seccionDelCotizador {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #EAEAEA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.seccionDelCotizadorCentro {
+    position: relative;
+    display: inline-block;
+}
+
+.tituloDeCotizar {
+    font-size: 18px;
+    font-family: 'gilroyextrabold';
+}
+
+.textoDeInstruccion {
+    font-size: 12px;
+    font-family: 'gilroylight';
+}
+
+.seccionDeLetrerosDeLote {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.categoriaDeLote {
+    height: 35px;
+    display: inline;
+    float: left;
+    width: 150px;
+}
+
+.btnLote1 {
+    height: 35px;
+    background-image: url('../asset/btnPremium.png');
+}
+
+.btnLote2 {
+    height: 35px;
+    background-image: url('../asset/logo.png');
+}
+
+.btnLote3 {
+    height: 35px;
+    background-image: url('../asset/logo.png');
+}
+
+.leyenda_dispo {
+    font-size: 16px;
+    font-family: 'gilroylight';
+    color: #272F57;
+    text-decoration: none;
+    padding-left: 43px;
+    padding-top: 7px;
+    background-image: url('../images/bola_blanca.png');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    height: 35px;
+    width: auto;
+    display: inline;
+    float: left;
+    text-align: left;
+    margin-right: 25px;
+}
+
+.seccionDelMapa{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.bola_blanca{
+    background-image: url('../asset/bola_blanca.png')
+}
+
+.bola_amarilla{
+    background-image: url('../asset/bola_amarilla.png')
+}
+
+.bola_azul{
+    background-image: url('../asset/bola_azul.png')
+}
